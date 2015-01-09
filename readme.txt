@@ -21,13 +21,11 @@ This Plugin allows widget drag n drop form with captcha to display in sidebars.Y
 
 == Installation ==
 
-
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to "SIES" menu in the menu panel
 4. Go to Appearance->Wdiget tab. drag  "SIES subscription form" widget in the sidebar you want
 5. use  [sies_subc_form]   shortcode to place the form anywhere you want in template
+
+
+== Screenshots ==
