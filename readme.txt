@@ -2,6 +2,7 @@
 Version: 1.0
 Author: Yudiz Solutions
 Author URI: http://www.yudiz.com/  
+Tags: Email Subscription,Email Subscription with captcha,captcha,Email Subscribers,simple Email subscription
 Requires at least: 3.6.1
 Tested up to: 4.1
 Stable Tag: trunk
