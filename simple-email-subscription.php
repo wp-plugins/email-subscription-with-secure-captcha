@@ -1,7 +1,7 @@
 <?php
 
 /*
- *  Plugin Name: Simple Email Subscription
+ *  Plugin Name: Easy Email Subscription
  *  Version: 1.0
  *  Author: Yudiz Solutions
  *  Author URI: http://www.yudiz.com/  
