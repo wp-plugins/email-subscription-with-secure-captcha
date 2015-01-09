@@ -29,3 +29,7 @@ This Plugin allows widget drag n drop form with captcha to display in sidebars.Y
 
 
 == Screenshots ==
+
+1. Subscription form in widget
+
+2. Admin side listing of Subscribers
