@@ -1,4 +1,4 @@
-===== Simple Email Subscription ==========
+===== Easy Email Subscription ==========
 Version: 1.0
 Author: Yudiz Solutions
 Author URI: http://www.yudiz.com/  
@@ -10,7 +10,7 @@ Contributors: yudiz
 
 
 
-Simple Email Subscription form with secured captcha.
+Easy Email Subscription form with secured captcha.
 
 == Description ==
 
