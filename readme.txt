@@ -1,6 +1,6 @@
 ===== Easy Email Subscription ==========
 Version: 1.0
-Author: Yudiz Solutions
+Author: Yudiz Solutions pvt ltd.
 Author URI: http://www.yudiz.com/  
 Tags: Email Subscription,Email Subscription with captcha,captcha,Email Subscribers,simple Email subscription
 Requires at least: 3.6.1
