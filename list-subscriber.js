@@ -1,6 +1,7 @@
 
-jQuery(function(){                    
-    var actionurl='<?php echo admin_url()."admin.php?page=edit-subscription&action=delete"; ?>';                     
+jQuery(function(){
+    // actionurl_pass is Localized variable passed from wp_localize_script() 
+    var actionurl = actionurl_pass;
     jQuery(".dellink").click(function(){                                                                       
 
         if(confirm("Are You sure want to delete this record"))
