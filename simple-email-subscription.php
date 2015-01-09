@@ -456,15 +456,20 @@ function sies_mainpage_show(){
     function enqueue_admin_js_css($hook) {
         
         if ($hook=='toplevel_page_sies') {            
-            wp_enqueue_style("siesstyle",plugins_url('sies-admin-style.css',__FILE__));
-            wp_enqueue_script("sies_edit_subscriber", plugins_url('list-subscriber.js',__FILE__));               
+            wp_enqueue_style("siesstyle",plugins_url('sies-admin-style.css',__FILE__));            
+            
+            wp_register_script( 'sies_list_subscriber', plugins_url('list-subscriber.js',__FILE__));          
+            $translation_array =  admin_url()."admin.php?page=edit-subscription&action=delete";
+            wp_localize_script( 'sies_list_subscriber', 'actionurl_pass', $translation_array );
+            wp_enqueue_script("sies_list_subscriber");               
+            
         }  
         
         if ($hook=='admin_page_edit-subscription') {
             wp_enqueue_style('jquery-style', plugins_url('jquery-ui/jquery-ui.css',__FILE__));
             wp_enqueue_style("siesstyle",plugins_url('sies-admin-style.css',__FILE__));
-            wp_enqueue_script('jquery-ui-datepicker');
-            wp_enqueue_script("sies_edit_subscriber", plugins_url('edit-subscriber.js',__FILE__));            
+            wp_enqueue_script('jquery-ui-datepicker');            
+            wp_enqueue_script("sies_edit_subscriber",plugins_url('edit-subscriber.js',__FILE__));            
         }                           
         
     }
