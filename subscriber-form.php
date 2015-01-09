@@ -68,12 +68,12 @@
             
             <form name="sies_form" id="sies_form" action="" class="siesform" method="POST">
                 <p class="siesformpara">
-                    <label>Full Name</label> 
+                    <label>Full Name *</label> 
                     <input type="text" name="fullname" id="fullname" class="siesinput"><br>
                     <span class="vlderrormsg"></span>
                 </p>
                 <p class="siesformpara">
-                    <label>Email</label>
+                    <label>Email *</label>
                     <input type="text" name="email" id="email" class="siesinput"><br>
                     <span class="vlderrormsg"></span>
                 </p>
@@ -92,9 +92,3 @@
                 
     }
     add_shortcode( 'sies_subc_form', 'sies_subc_form_display' );
-
-     
- 
-                
-
-
